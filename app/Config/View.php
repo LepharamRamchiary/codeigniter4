@@ -38,9 +38,9 @@ class View extends BaseView
      * @phpstan-var array<string, parser_callable_string>
      */
     public $filters = [
-        'hidenumbers' => '\CodeIgniter\View\Filters::hideNumbers',
-        'displayfournumbers' => '\CodeIgniter\View\Filters::displayFourNumbers',
-        'countvowels' => '\CodeIgniter\View\Filters::countVowels',
+        // 'hidenumbers' => '\CodeIgniter\View\Filters::hideNumbers',
+        // 'displayfournumbers' => '\CodeIgniter\View\Filters::displayFourNumbers',
+        // 'countvowels' => '\CodeIgniter\View\Filters::countVowels',
     ];
 
     /**

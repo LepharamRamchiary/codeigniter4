@@ -1,17 +1,12 @@
 <?= $this->extend('layouts/main'); ?>
-<?= $this->section("titles"); ?>
-<?= $main_title ?>
-<?= $this->endSection(); ?>
+
 <?= $this->section('content'); ?>
 
-
-
-
-<main>
-    <h1><?=$main_title; ?></h1>
+<div><a href="<?= base_url()?>">Home</a></div>
+<div class="content">
     <div class="section">
         <h2>Our Mission</h2>
-        <p><?= $desc; ?></p>
+        <p>We aim to create a positive impact through our services and products, focusing on quality and customer satisfaction. Our mission is to provide innovative solutions that meet the evolving needs of our users.</p>
     </div>
 
     <div class="section">
@@ -23,41 +18,6 @@
         <h2>Our History</h2>
         <p>Founded in 2020, we have grown from a small startup to a well-respected name in our industry. Our journey has been fueled by hard work, customer loyalty, and a commitment to excellence.</p>
     </div>
-    <div class="section">
-        <h2>Our History</h2>
-        <p>Founded in 2020, we have grown from a small startup to a well-respected name in our industry. Our journey has been fueled by hard work, customer loyalty, and a commitment to excellence.</p>
-    </div>
-    <div class="section">
-        <h2>Our History</h2>
-        <p>Founded in 2020, we have grown from a small startup to a well-respected name in our industry. Our journey has been fueled by hard work, customer loyalty, and a commitment to excellence.</p>
-    </div>
-    <div class="section">
-        <h2>Our History</h2>
-        <p>Founded in 2020, we have grown from a small startup to a well-respected name in our industry. Our journey has been fueled by hard work, customer loyalty, and a commitment to excellence.</p>
-    </div>
-    <div class="section">
-        <h2>Our History</h2>
-        <p>Founded in 2020, we have grown from a small startup to a well-respected name in our industry. Our journey has been fueled by hard work, customer loyalty, and a commitment to excellence.</p>
-    </div>
-    <div class="section">
-        <h2>Our History</h2>
-        <p>Founded in 2020, we have grown from a small startup to a well-respected name in our industry. Our journey has been fueled by hard work, customer loyalty, and a commitment to excellence.</p>
-    </div>
-    <div class="section">
-        <h2>Our History</h2>
-        <p>Founded in 2020, we have grown from a small startup to a well-respected name in our industry. Our journey has been fueled by hard work, customer loyalty, and a commitment to excellence.</p>
-    </div>
-    <div class="section">
-        <h2>Our History</h2>
-        <p>Founded in 2020, we have grown from a small startup to a well-respected name in our industry. Our journey has been fueled by hard work, customer loyalty, and a commitment to excellence.</p>
-    </div>
-    <div class="section">
-        <h2>Our History</h2>
-        <p>Founded in 2020, we have grown from a small startup to a well-respected name in our industry. Our journey has been fueled by hard work, customer loyalty, and a commitment to excellence.</p>
-    </div>
-    <div class="section">
-        <h2>Our History</h2>
-        <p>Founded in 2020, we have grown from a small startup to a well-respected name in our industry. Our journey has been fueled by hard work, customer loyalty, and a commitment to excellence.</p>
-    </div>
-</main>
+</div>
+
 <?= $this->endSection(); ?>
