@@ -3,7 +3,7 @@
 <?= $this->section('content') ?>
 
 
-<div><a href="<?= base_url()?>home/about">About</a></div>
+<div><a href="<?= base_url()?>about">About</a></div>
 <!-- new collection -->
 <section id="billboard" class="bg-light py-5">
     <?= $this->include("partials/newcollection");?>
