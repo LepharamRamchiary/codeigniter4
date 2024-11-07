@@ -37,7 +37,11 @@ class View extends BaseView
      * @var         array<string, string>
      * @phpstan-var array<string, parser_callable_string>
      */
-    public $filters = [];
+    public $filters = [
+        'hidenumbers' => '\CodeIgniter\View\Filters::hideNumbers',
+        'displayfournumbers' => '\CodeIgniter\View\Filters::displayFourNumbers',
+        'countvowels' => '\CodeIgniter\View\Filters::countVowels',
+    ];
 
     /**
      * Parser Plugins provide a way to extend the functionality provided
